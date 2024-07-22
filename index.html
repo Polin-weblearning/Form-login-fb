@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Style Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login-header">
+        <h2>Facebook</h2>
+      </div>
+      <form id="loginForm">
+        <div class="form-group">
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Email or Phone Number"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <button type="submit">Log In</button>
+        <div id="error-message"></div>
+      </form>
+      <div class="login-footer">
+        <a href="#">Forgotten password?</a>
+        <hr />
+        <button class="signup-button">Create New Account</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
